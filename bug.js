@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The barcode scanner works initially, but after a few scans, it stops detecting barcodes. The `onBarCodeScanned` function stops being called, even though the camera preview continues to function.
